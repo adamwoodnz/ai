@@ -1,10 +1,33 @@
+# Cursor IDE state and databases
+ai-tracking/
+*.db
+ide_state.json
+
+# Extensions
+extensions/
+
 # Logs
+browser-logs/
 logs
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
+
+# Project-specific state
+projects/
+
+# CLI config (may contain sensitive data)
+cli-config.json
+argv.json
+mcp.json
+
+# Plans (ephemeral working files)
+plans/
+
+# Third-party skills
+skills-cursor/
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
