@@ -64,7 +64,7 @@ In a pnpm workspace monorepo, you may need to link at the workspace root or in a
 If the user specifies a package name, eg. `widgets-toolkit`, add the link there.
 
 ```bash
-cd next-woocommerce-analytics/packages/widgets-toolkit
+cd packages/widgets-toolkit
 pnpm link @automattic/charts
 ```
 

@@ -21,7 +21,7 @@ Include context about the problem and its consequences.
 
 ---
 
-## Core Principles (from Automattic Field Guide)
+## Core Principles
 
 ### 1. **Always include a subject line**
 
@@ -108,7 +108,7 @@ Links are footnotes, not the message itself. Include:
 fix(stats): Use double quotes for variable interpolation
 
 Single quotes were preventing variable expansion in the stats
-link URL on m.wordpress.com.
+link URL on example.com.
 
 Introduced in the mass sanitization of [46532].
 ```
@@ -189,11 +189,3 @@ asdfasdf                       # Just... no
    JSON API: Add endpoint for user preferences
    VIP Report: Clear caches on each post to save memory
    ```
-
----
-
-## References
-
-- [Automattic Field Guide: What Is a Good Commit Message](https://fieldguide.automattic.com/what-is-a-good-commit-message/)
-- [Conventional Commits Specification](https://www.conventionalcommits.org/)
-- [How to Write a Git Commit Message (cbea.ms)](https://cbea.ms/git-commit/)
