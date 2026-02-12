@@ -13,7 +13,6 @@ This repository contains Cursor IDE skills, and related AI development tooling.
 Custom Cursor skills for common development workflows:
 
 - **git-commit**: Craft clear, informative git commit messages following best practices
-- **git-pull**: Pull the latest changes from remote repositories
 - **pnpm-link-local**: Link local packages using pnpm for development testing
 - **pr-feedback**: Fetch and assess review comments on pull requests
 
